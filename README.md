@@ -8,5 +8,5 @@ The config folder is access-able via windows samba share, when you enable your u
 
 How to: unRAID webgui --> main --> flash --> SMB Security Settings:Security --> Public --> Apply
 
-Now you should have "unRAID server --> flash --> flash --> config" folder tree
+Now you should have "unRAID server --> flash --> config" folder tree
 
