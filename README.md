@@ -7,5 +7,6 @@ Put files into script folder you want to. I am using unRAID v6, thus I have plac
 The config folder is access-able via windows samba share, when you enable your unRAID USB-stick to be shared under samba temporarely.
 
 How to: unRAID webgui --> main --> flash --> SMB Security Settings:Security --> Public --> Apply
+
 Now you should have "unRAID server --> flash --> flash --> config" folder tree
 
