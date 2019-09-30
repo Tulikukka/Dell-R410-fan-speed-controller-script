@@ -2,7 +2,8 @@
 This is a script for Dell R410 rack server to tone down fans for homelab users.
 
 Setup guide:
-Put files into script folder you want to. I am using unRAID v6, thus I have placed them under /boot/config/scripts/fans/
+Put ".sh" files into script folder you want to. I am using unRAID v6, thus I have placed them under /boot/config/scripts/fans/
+Manually edit your "go" file to have same edited lines as this git version has or copy git version to /boot/config/, if you had not made any changes to it yet.
 
 The config folder is access-able via windows samba share, when you enable your unRAID USB-stick to be shared under samba temporarely.
 
