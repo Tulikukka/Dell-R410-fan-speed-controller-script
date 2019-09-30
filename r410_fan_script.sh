@@ -13,7 +13,7 @@
 #           you need to adjust speeds via idrac with ipmitool
 #           this script has 3 different files!
 # website : https://www.reddit.com/r/homelab/wiki/buildlogs/blfireflowerist01
-# git     : 
+# git     : https://github.com/Tulikukka/Dell-R410-fan-speed-controller-script
 # backups : 
 # Language: Bash
 # Style   : TUT Style++ (http://www.telok.fi/doku.php?projektit:tyyliopas_style_.pdf)
