@@ -7,4 +7,4 @@
 /boot/config/scripts/fans/r410_fan_manual_enable.sh
 #Then we load existing crontab, pass it to cat and echo our every minute fan
 #update script and write changes to crontab, which has been loaded to RAM.
-crontab -l | { cat; echo "* * * * * /boot/config/scripts/fans/r410_fan_script.sh"; } | crontab -
+crontab -l | { cat; echo "* * * * * /boot/config/scripts/fans/r410_fan_script.sh 1> /dev/null"; } | crontab -
