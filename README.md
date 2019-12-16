@@ -1,13 +1,11 @@
 # Dell-R410-fan-speed-controller-script
-This is a script for Dell R410 rack server to tone down fans for homelab users.
-
-Setup guide:
-Put ".sh" files into script folder you want to. I am using unRAID v6, thus I have placed them under /boot/config/scripts/fans/
-Manually edit your "go" file to have same edited lines as this git version has or copy git version to /boot/config/, if you had not made any changes to it yet.
-
-The config folder is access-able via windows samba share, when you enable your unRAID USB-stick to be shared under samba temporarely.
-
-How to: unRAID webgui --> main --> flash --> SMB Security Settings:Security --> Public --> Apply
-
-Now you should have "unRAID server --> flash --> config" folder tree
+This is release might not be fully tested yet! It is planned to have following features:
+- CPU temp based fan control
+- Load based fan control
+- Only single file has to be updated by enduser, script gets those values on other file
+- Fan ramp modes (Keep Quiet / Balanced / Cool)
+- Ambient temperature affects fan speeds
+- "Target CPU temp" and "Let CPU heat up to temp" mode
+- CPU TPD auto detection and fan speed adjustment
+- Continue to be light for cpu
 
