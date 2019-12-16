@@ -8,4 +8,4 @@ This is release might not be fully tested yet! It is planned to have following f
 - "Target CPU temp" and "Let CPU heat up to temp" mode
 - CPU TPD auto detection and fan speed adjustment
 - Continue to be light for cpu
-
+- Only ipmitool needs to be installed
