@@ -7,19 +7,19 @@
 # Author  : Markku Hyttinen | make90.hyttinen gmail.com | +358442885519
 # Based on: Jamie's guide: https://blog.jamie.ie/loud-dell-r410-fans-and-how-to-fix-them/
 # Company : TELOK ry
-# Date    : Date 2019 09 24
+# Date    : Date 2019/12/26
 # Project : R410 ipmitool fan adjuster
 # Desc    : R410 doesn't have fan adjustment tool in BIOS, thus
 #           you need to adjust speeds via idrac with ipmitool
-#           this script has 3 different files!
+#           this script has 3 different files! (r410_fan_manual_enable.sh, r410_fan_script_sh, go)
 # website : https://www.reddit.com/r/homelab/wiki/buildlogs/blfireflowerist01
 # git     : https://github.com/Tulikukka/Dell-R410-fan-speed-controller-script
 # backups : 
 # Language: Bash
 # Style   : TUT Style++ (http://www.telok.fi/doku.php?projektit:tyyliopas_style_.pdf)
 #
-# Version : 5
-# Changes : separated fan control enable to be in another script file. R410_fan_manual_enable.sh
+# Version : 6
+# Changes : Updated script to write ipmi login credentials to r410_fan_manual_enable.sh
 #           
 #
 # HARDWARE DETAILS
@@ -29,15 +29,15 @@
 # Call frequency          : Every minute
 #
 # SOFTWARE DETAILS
-# Operating system        : Unraid V6
+# Operating system        : Unraid V6.8
 # Plugins                 : Nerd Tools
 #                              ->ipmitool-1.8.19a-x86_64-1.txz
 
 # IPMI SETTINGS:
-# Modify to suit your needs.
-IPMIHOST=1.1.1.1
-IPMIUSER=root
-IPMIPW=yourpassword
+# These settings get overwritten by R410_fan_manual_enable.sh!
+IPMIHOST=
+IPMIUSER=
+IPMIPW=
 
 #Oneline command to get uptimes to A, B & C. 
 # Friend wrote this oneliner, need to write explanation what it does and why it does it.
